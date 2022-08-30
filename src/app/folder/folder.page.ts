@@ -14,5 +14,5 @@ export class FolderPage implements OnInit {
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
   }
-
+  public lista_de_cosas_raras =['no se que poner aqui','aqui tampoco ','aqui menos','mucho menos aqui']
 }
