@@ -1,7 +1,0 @@
-{
-  "name": "elmejorproyectodetodos",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
