@@ -1,7 +1,0 @@
-{
-  "name": "trabajo_sumativo",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
