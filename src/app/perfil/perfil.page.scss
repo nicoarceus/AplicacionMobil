@@ -4,6 +4,11 @@ ion-thumbnail {
   --border-radius: 14px;
 }
 
+.menu-top{
+  display: flex;
+  justify-content: space-between;
+}
+
 .grupo-img {
   display: flex;
   justify-content: start;
@@ -13,14 +18,13 @@ ion-thumbnail {
   margin-top: 20px;
   margin-right: 5px;
   margin-left: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
-.Titulo1 {
-  display: flex;
-  justify-content: center;
+.Titulo-1 {
+  width: 100%;
   text-align: center;
-  align-items: center;
+  margin-top: 35px;
 }
 
 .boton {

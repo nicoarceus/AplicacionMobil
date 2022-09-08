@@ -21,6 +21,10 @@ const routes: Routes = [
         loadChildren: () => import('../configuracion/configuracion.module').then( m => m.ConfiguracionPageModule)
       },
       {
+        path: 'buscar',
+        loadChildren: () => import('../buscar/buscar.module').then( m => m.BuscarPageModule)
+      },
+      {
         path: '',
         redirectTo:'/tablinks/perfil',
         pathMatch:'full'
