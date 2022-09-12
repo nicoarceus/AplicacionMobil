@@ -6,22 +6,20 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tablinks/tablinks.module').then( m => m.TablinksPageModule)
   },
+ 
   {
-    path:'',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
-  },
-  {
-    path:'',
+    path:'inicio',
     loadChildren: () => import('./inicio/inicio.module').then(m => m.InicioPageModule)
   },
   {
-    path:'',
+    path:'perfil',
     loadChildren: () => import('./perfil/perfil.module').then(m => m.PerfilPageModule)
   },
   {
-    path:'',
+    path:'configuracion',
     loadChildren: () => import('./configuracion/configuracion.module').then(m => m.ConfiguracionPageModule)
-  },  {
+  },
+  {
     path: 'buscar',
     loadChildren: () => import('./buscar/buscar.module').then( m => m.BuscarPageModule)
   },
