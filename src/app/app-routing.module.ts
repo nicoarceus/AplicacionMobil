@@ -21,10 +21,24 @@ const routes: Routes = [
   {
     path:'',
     loadChildren: () => import('./configuracion/configuracion.module').then(m => m.ConfiguracionPageModule)
-  },  {
+  },
+  {
     path: 'buscar',
     loadChildren: () => import('./buscar/buscar.module').then( m => m.BuscarPageModule)
   },
+  {
+    path: 'notificaciones',
+    loadChildren: () => import('./notificaciones/notificaciones.module').then( m => m.NotificacionesPageModule)
+  },
+  {
+    path: 'ayuda',
+    loadChildren: () => import('./ayuda/ayuda.module').then( m => m.AyudaPageModule)
+  },
+  {
+    path: 'nuevoypopular',
+    loadChildren: () => import('./nuevoypopular/nuevoypopular.module').then( m => m.NuevoypopularPageModule)
+  },
+
 
 ];
 
