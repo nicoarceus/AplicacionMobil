@@ -25,6 +25,10 @@ const routes: Routes = [
         loadChildren: () => import('../buscar/buscar.module').then( m => m.BuscarPageModule)
       },
       {
+        path: 'nuevoypopular',
+        loadChildren: () => import('../nuevoypopular/nuevoypopular.module').then( m => m.NuevoypopularPageModule)
+      },
+      {
         path: '',
         redirectTo:'/tablinks/perfil',
         pathMatch:'full'

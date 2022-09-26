@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar class="menu-top">
     <ion-tab-button tab="inicio">
-      <ion-icon  name="arrow-back-outline"></ion-icon>
+      <ion-icon></ion-icon>
       <ion-title>Perfil</ion-title>
     </ion-tab-button>
   </ion-toolbar>
@@ -59,13 +59,15 @@
     </ion-item>
   </div>
 
-
   <div class="boton">
-    <ion-button color="light" expand="block"><ion-icon name="list-circle-outline"></ion-icon>Mi lista</ion-button>
+    <ion-button tab="inicio" slot="start" color="light" expand="block">
+      <ion-icon  name="list-circle-outline"></ion-icon>
+      <p slot="start">Mi lista</p>
+    </ion-button>
   </div>
 
   <div class="boton">
-    <ion-button color="light" expand="block"><ion-icon name="cog-outline"></ion-icon>Configuración de app</ion-button>
+    <ion-button href="ayuda" color="light" expand="block"><ion-icon name="cog-outline"></ion-icon>Configuración de app</ion-button>
   </div>
 
   <div class="boton">
@@ -75,7 +77,6 @@
   <div class="boton">
     <ion-button color="light" expand="block"><ion-icon name="help-circle-outline"></ion-icon>Ayuda</ion-button>
   </div>
-
 
   <ion-textarea class="Titulo-1" position="center"><ion-icon name="construct-outline"></ion-icon>Cerrar sesión</ion-textarea>
 
